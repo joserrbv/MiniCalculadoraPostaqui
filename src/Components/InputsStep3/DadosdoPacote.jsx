@@ -11,6 +11,51 @@ const CustomContainer = styled.div`
   width: 1135px;
   padding-top: 30px;
   padding-bottom: 20px;
+
+  @media (max-width: 1120px) {
+    width: 900px;
+  }
+
+  @media (max-width: 925px) {
+    width: 800px;
+  }
+
+  @media (max-width: 870px) {
+    width: 700px;
+  }
+
+  @media (max-width: 750px) {
+    width: 600px;
+    height: 900px;
+  }
+
+  @media (max-width: 620px) {
+    width: 450px;
+  }
+
+  @media (max-width: 540px) {
+    width: 450px;
+    height: 1070px;
+  }
+
+  @media (max-width: 480px) {
+    width: 340px;
+  }
+
+  @media (max-width: 414px) {
+    width: 340px;
+    height: 1070px;
+  }
+
+  @media (max-width: 375px) {
+    width: 340px;
+    height: 1070px;
+  }
+
+  @media (max-width: 280px) {
+    width: 240px;
+    height: 1070px;
+  }
 `;
 
 const CustomButton = styled(Button)(
@@ -29,7 +74,11 @@ const CustomButton = styled(Button)(
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  `
+
+  @media (max-width: 375px) {
+   margin-top: 10px;
+  }
+    `
 );
 
 const DadosdeDestino = () => {

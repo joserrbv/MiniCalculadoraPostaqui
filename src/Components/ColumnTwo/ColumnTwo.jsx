@@ -5,6 +5,11 @@ const FormControl = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: 750px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const CustomFormContainer = styled("div")({
