@@ -1,6 +1,6 @@
 import "@fontsource/roboto/400.css";
 import { Typography } from "@mui/material";
-import logo from "../assets/Postaqui4.png";
+import logo from "../assets/postaqui4.png";
 import DadosdeDestino from "../Components/InputsStep2/DadosdeDestino";
 import styled from "styled-components";
 import InfoOrigem from "../Components/InfoOrigem/InfoOrigem";

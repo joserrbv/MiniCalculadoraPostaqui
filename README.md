@@ -1,3 +1,4 @@
+
 Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
@@ -14,9 +15,3 @@ You can also see errors through the errors page I created
 additional library:
 Installed SASS for global styling
 Styled-component
-
-
-
-
-
-
