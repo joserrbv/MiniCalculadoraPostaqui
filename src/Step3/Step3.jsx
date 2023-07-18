@@ -2,7 +2,7 @@ import "@fontsource/roboto/400.css";
 import { Typography } from "@mui/material";
 import InfoOrigem from "../Components/InfoOrigem/InfoOrigem";
 import styled from "styled-components";
-import logo from "../assets/Postaqui4.png";
+import logo from "../assets/postaqui4.png";
 import DadosdoPacote from "../Components/InputsStep3/DadosdoPacote";
 import seta from "../assets/Arrow1.svg";
 import InfoDestino from "../Components/InforDestino/InfoDestino";
