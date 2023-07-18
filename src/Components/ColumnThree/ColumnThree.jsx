@@ -11,6 +11,11 @@ const DivTree = styled.div`
   justify-content: center;
   flex-direction: row;
   align-items: center;
+
+  @media (max-width: 750px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const FormContainer = styled("form")({
@@ -29,12 +34,23 @@ const CustomFormControl = styled("div")({
   backgroundColor: "#fff",
 });
 
-const CustomControl = styled("div")({
+const CustomControl = styled.div`
   display: "flex",
   flexDirection: "column",
   marginBottom: "16px",
   marginRight: "40px",
-});
+
+  @media (max-width: 414px) {
+    display: "flex",
+    align-items: center,
+    justify-content: center;}
+
+  @media (max-width: 375px) {
+    display: "flex",
+    align-items: center,
+    justify-content: center;}
+  
+  `;
 
 const Label = styled("label")({
   marginBottom: "1px",
@@ -49,6 +65,18 @@ const CustomContainerForm = styled.div`
 
 const Diva = styled.div`
   text-align: left;
+
+  @media (max-width: 414px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const ColumnThree = () => {

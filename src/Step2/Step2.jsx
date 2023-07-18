@@ -13,7 +13,43 @@ const Home = styled.div`
   background-color: #ffcd40;
   width: 100%;
   font-family: Roboto;
-  height: 700px;
+  height: 717px;
+
+  @media (max-width: 1280px) {
+    height: 800px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 700px;
+  }
+
+  @media (max-width: 912px) {
+    height: 1368px;
+  }
+
+  @media (max-width: 820px) {
+    height: 1180px;
+  }
+
+  @media (max-width: 768px) {
+    height: 1024px;
+  }
+
+  @media (max-width: 540px) {
+    height: 1300px;
+  }
+
+  @media (max-width: 414px) {
+    height: 1350px;
+  }
+
+  @media (max-width: 375px) {
+    height: 1400px;
+  }
+
+  @media (max-width: 280px) {
+    height: 1450px;
+  }
 `;
 
 const Logo = styled.img`

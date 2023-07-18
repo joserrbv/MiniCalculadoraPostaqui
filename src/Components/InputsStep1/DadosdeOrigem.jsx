@@ -11,6 +11,35 @@ const CustomContainer = styled.div`
   width: 1135px;
   padding-top: 30px;
   padding-bottom: 20px;
+
+  @media (max-width: 1120px) {
+    width: 900px;
+  }
+
+  @media (max-width: 925px) {
+    width: 800px;
+  }
+
+  @media (max-width: 870px) {
+    width: 700px;
+  }
+
+  @media (max-width: 750px) {
+    width: 600px;
+    height: 900px;
+  }
+
+  @media (max-width: 620px) {
+    width: 450px;
+  }
+
+  @media (max-width: 480px) {
+    width: 340px;
+  }
+
+  @media (max-width: 380px) {
+    width: 240px;
+  }
 `;
 
 const CustomButton = styled(Button)(

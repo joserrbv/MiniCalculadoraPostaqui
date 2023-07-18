@@ -16,6 +16,42 @@ const Home = styled.div`
   width: 100%;
   font-family: Roboto;
   height: 900px;
+
+  @media (max-width: 1280px) {
+    height: 900px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 900px;
+  }
+
+  @media (max-width: 912px) {
+    height: 1368px;
+  }
+
+  @media (max-width: 820px) {
+    height: 1180px;
+  }
+
+  @media (max-width: 768px) {
+    height: 1124px;
+  }
+
+  @media (max-width: 540px) {
+    height: 1650px;
+  }
+
+  @media (max-width: 414px) {
+    height: 1700px;
+  }
+
+  @media (max-width: 375px) {
+    height: 1700px;
+  }
+
+  @media (max-width: 280px) {
+    height: 1800px;
+  }
 `;
 
 const Logo = styled.img`
@@ -30,6 +66,12 @@ const Section = styled.section`
   flex-direction: row;
   align-items: center;
   width: 80%;
+
+  @media (max-width: 925px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const Seta = styled.img`

@@ -26,6 +26,59 @@ const DivFour = styled.div`
   padding: 20px;
   height: 300px;
   width: 1100px;
+
+  @media (max-width: 1120px) {
+    width: 900px;
+  }
+
+  @media (max-width: 925px) {
+    width: 800px;
+  }
+
+  @media (max-width: 870px) {
+    width: 700px;
+  }
+
+  @media (max-width: 750px) {
+    width: 600px;
+    height: 900px;
+  }
+
+  @media (max-width: 620px) {
+    width: 450px;
+  }
+
+  @media (max-width: 540px) {
+    width: 450px;
+    height: 300px;
+  }
+
+  @media (max-width: 480px) {
+    width: 340px;
+  }
+
+  @media (max-width: 414px) {
+    width: 300px;
+    height: 400px;
+  }
+
+  @media (max-width: 412px) {
+    width: 300px;
+    height: 400px;
+  }
+
+  @media (max-width: 380px) {
+    width: 240px;
+  }
+
+  @media (max-width: 375px) {
+    width: 240px;
+    height: 450px;
+  }
+
+  @media (max-width: 360px) {
+    width: 250px;
+  }
 `;
 
 const Correio = styled.img`
