@@ -1,17 +1,33 @@
+# Calculadora Postaqui
 
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+- Getting Started with Create React App
+  
+- This project was bootstrapped with Create React App.
 
-Available Scripts
-In the project directory, you can run:
+- Available Scripts
 
-npm run dev
-Runs the app in the development mode.
-Open http://localhost:5173 to view it in your browser.
 
-The page will reload when you make changes.
-You can also see errors through the errors page I created
+## In the project directory, you can run:
 
-additional library:
-Installed SASS for global styling
-Styled-component
+```npm run dev```
+
+- Runs the app in the development mode.
+
+- Open http://localhost:5173 to view it in your browser.
+
+- The page will reload when you make changes.
+- You can also see errors through the errors page I created
+
+# Additional library:
+
+- Installed SASS for global styling
+- Styled-component
+
+## Dependência
+
+- NodeJS
+- NPM
+
+### collaborators
+
+- @joserrbv ( Jose Queiroz)
